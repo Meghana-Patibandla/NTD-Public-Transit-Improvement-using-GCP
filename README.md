@@ -4,6 +4,13 @@
 
 This project is a pioneering venture to enhance public transport systems using Google Cloud Platform's powerful data analytics capabilities. We aim to navigate through extensive datasets, uncovering insights that can optimize transit routes, improve vehicle allocation, and ensure a sustainable, eco-friendly approach to urban transportation.
 
+
+## Dataset
+
+We leverage the National Transit Database (NTD) dataset, containing detailed vehicle data for each transit agency, including age distribution, lifetime mileage, and service fleet composition.
+
+Dataset Access: [NTD 2022 Vehicles Dataset](https://www.transit.dot.gov/ntd/data-product/2022-vehicles)
+
 ## Goals
 
 - **Accessibility Optimization**: To use data analytics to ensure convenient access to public transit vehicles for everyone.
@@ -22,12 +29,6 @@ This project is a pioneering venture to enhance public transport systems using G
 ## Data Lifecycle Management
 
 Our workflow starts with data refinement using Open Refine, progresses to secure storage in GCS, and utilizes Dataproc alongside Hive and Spark for analysis. This ensures high-quality data is ready for multidimensional analysis.
-
-## Dataset
-
-We leverage the National Transit Database (NTD) dataset, containing detailed vehicle data for each transit agency, including age distribution, lifetime mileage, and service fleet composition.
-
-Dataset Access: [NTD 2022 Vehicles Dataset](https://www.transit.dot.gov/ntd/data-product/2022-vehicles)
 
 ## Findings
 
